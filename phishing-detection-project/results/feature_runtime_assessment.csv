@@ -1,0 +1,82 @@
+feature,feature_group,deployment_cost,runtime_note
+length_url,URL,Low,Can usually be extracted directly from the URL string.
+length_hostname,URL,Low,Can usually be extracted directly from the URL string.
+ip,URL,Low,Can usually be extracted directly from the URL string.
+nb_dots,URL,Low,Can usually be extracted directly from the URL string.
+nb_hyphens,URL,Low,Can usually be extracted directly from the URL string.
+nb_at,URL,Low,Can usually be extracted directly from the URL string.
+nb_qm,URL,Low,Can usually be extracted directly from the URL string.
+nb_and,URL,Low,Can usually be extracted directly from the URL string.
+nb_eq,URL,Low,Can usually be extracted directly from the URL string.
+nb_underscore,URL,Low,Can usually be extracted directly from the URL string.
+nb_tilde,URL,Low,Can usually be extracted directly from the URL string.
+nb_percent,URL,Low,Can usually be extracted directly from the URL string.
+nb_slash,URL,Low,Can usually be extracted directly from the URL string.
+nb_star,URL,Low,Can usually be extracted directly from the URL string.
+nb_colon,URL,Low,Can usually be extracted directly from the URL string.
+nb_comma,URL,Low,Can usually be extracted directly from the URL string.
+nb_semicolumn,URL,Low,Can usually be extracted directly from the URL string.
+nb_dollar,URL,Low,Can usually be extracted directly from the URL string.
+nb_space,URL,Low,Can usually be extracted directly from the URL string.
+nb_www,URL,Low,Can usually be extracted directly from the URL string.
+nb_com,URL,Low,Can usually be extracted directly from the URL string.
+nb_dslash,URL,Low,Can usually be extracted directly from the URL string.
+http_in_path,URL,Low,Can usually be extracted directly from the URL string.
+https_token,URL,Low,Can usually be extracted directly from the URL string.
+ratio_digits_url,URL,Low,Can usually be extracted directly from the URL string.
+ratio_digits_host,URL,Low,Can usually be extracted directly from the URL string.
+punycode,URL,Low,Can usually be extracted directly from the URL string.
+port,URL,Low,Can usually be extracted directly from the URL string.
+tld_in_path,URL,Low,Can usually be extracted directly from the URL string.
+tld_in_subdomain,URL,Low,Can usually be extracted directly from the URL string.
+abnormal_subdomain,URL,Low,Can usually be extracted directly from the URL string.
+nb_subdomains,URL,Low,Can usually be extracted directly from the URL string.
+prefix_suffix,URL,Low,Can usually be extracted directly from the URL string.
+random_domain,URL,Low,Can usually be extracted directly from the URL string.
+shortening_service,URL,Low,Can usually be extracted directly from the URL string.
+path_extension,URL,Low,Can usually be extracted directly from the URL string.
+nb_redirection,URL,Low,Can usually be extracted directly from the URL string.
+nb_external_redirection,URL,Low,Can usually be extracted directly from the URL string.
+length_words_raw,URL,Low,Can usually be extracted directly from the URL string.
+char_repeat,URL,Low,Can usually be extracted directly from the URL string.
+shortest_words_raw,URL,Low,Can usually be extracted directly from the URL string.
+shortest_word_host,URL,Low,Can usually be extracted directly from the URL string.
+shortest_word_path,URL,Low,Can usually be extracted directly from the URL string.
+longest_words_raw,URL,Low,Can usually be extracted directly from the URL string.
+longest_word_host,URL,Low,Can usually be extracted directly from the URL string.
+longest_word_path,URL,Low,Can usually be extracted directly from the URL string.
+avg_words_raw,URL,Low,Can usually be extracted directly from the URL string.
+avg_word_host,URL,Low,Can usually be extracted directly from the URL string.
+avg_word_path,URL,Low,Can usually be extracted directly from the URL string.
+phish_hints,URL,Low,Can usually be extracted directly from the URL string.
+domain_in_brand,URL,Low,Can usually be extracted directly from the URL string.
+brand_in_subdomain,URL,Low,Can usually be extracted directly from the URL string.
+brand_in_path,URL,Low,Can usually be extracted directly from the URL string.
+suspecious_tld,URL,Low,Can usually be extracted directly from the URL string.
+statistical_report,URL,Low,Can usually be extracted directly from the URL string.
+nb_hyperlinks,Content,Medium,Requires fetching and parsing webpage content / DOM.
+ratio_inthyperlinks,Content,Medium,Requires fetching and parsing webpage content / DOM.
+ratio_exthyperlinks,Content,Medium,Requires fetching and parsing webpage content / DOM.
+nb_extcss,Content,Medium,Requires fetching and parsing webpage content / DOM.
+ratio_extredirection,Content,Medium,Requires fetching and parsing webpage content / DOM.
+ratio_exterrors,Content,Medium,Requires fetching and parsing webpage content / DOM.
+login_form,Content,Medium,Requires fetching and parsing webpage content / DOM.
+external_favicon,Content,Medium,Requires fetching and parsing webpage content / DOM.
+links_in_tags,Content,Medium,Requires fetching and parsing webpage content / DOM.
+ratio_intmedia,Content,Medium,Requires fetching and parsing webpage content / DOM.
+ratio_extmedia,Content,Medium,Requires fetching and parsing webpage content / DOM.
+iframe,Content,Medium,Requires fetching and parsing webpage content / DOM.
+popup_window,Content,Medium,Requires fetching and parsing webpage content / DOM.
+safe_anchor,Content,Medium,Requires fetching and parsing webpage content / DOM.
+onmouseover,Content,Medium,Requires fetching and parsing webpage content / DOM.
+right_clic,Content,Medium,Requires fetching and parsing webpage content / DOM.
+empty_title,Content,Medium,Requires fetching and parsing webpage content / DOM.
+domain_in_title,Content,Medium,Requires fetching and parsing webpage content / DOM.
+domain_with_copyright,Content,Medium,Requires fetching and parsing webpage content / DOM.
+whois_registered_domain,External service,High,"May require DNS, WHOIS, search-engine, traffic, or reputation service lookup."
+domain_registration_length,External service,High,"May require DNS, WHOIS, search-engine, traffic, or reputation service lookup."
+domain_age,External service,High,"May require DNS, WHOIS, search-engine, traffic, or reputation service lookup."
+web_traffic,External service,High,"May require DNS, WHOIS, search-engine, traffic, or reputation service lookup."
+dns_record,External service,High,"May require DNS, WHOIS, search-engine, traffic, or reputation service lookup."
+google_index,External service,High,"May require DNS, WHOIS, search-engine, traffic, or reputation service lookup."
+page_rank,External service,High,"May require DNS, WHOIS, search-engine, traffic, or reputation service lookup."
